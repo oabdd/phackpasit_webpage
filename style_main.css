@@ -1,0 +1,754 @@
+/* Main Index */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Fredoka+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header_box{
+    width: 100%;
+    height: 480px;
+    background-color: rgb(68, 68, 68);
+    background-image: url(pics/sky.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1080px;
+}
+.top_header{
+    width: 1080px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.logo_header h1{
+    font-size: 100px;
+    color: white;
+    padding-left: 100px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.menu_header{
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu_header ul{
+    width: 500px;
+    justify-content: space-evenly;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menu_header ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+}
+.menu_header ul li:hover{
+    cursor: pointer;
+    color: rgb(206, 206, 206);
+    transition: 0.7s;
+}
+.content_container{
+    width: 100%;
+    height: 300px;
+    padding-left: 610px;
+}
+.top_content{
+    width: 420px;
+    height: 250px;
+    text-align: right;
+    padding-top: 240px;
+}
+.top_content h2{
+    font-size: 40px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.top_content h4{
+    color: white;
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.pf_container{
+    display: grid;
+    grid-template-columns: 15% auto 30% 15%;
+    margin-top: 50px;
+}
+.profile{
+    grid-column: 2 / span 1;
+}
+.pf_topic{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.pf_intro{
+    width: 680px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+}
+.pf_pic{
+    grid-column: 3 / span 1;
+    margin-left: 89px;
+    width: 450px;
+}
+.per_details{
+    margin-top: 50px;
+}
+.person{
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.per_container{
+    display: grid;
+    grid-template-columns: 10% 26% 26% 26% 10%;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.hobbies{
+    grid-column: 2 / span 1;
+    text-align: center;
+}
+.hobbies img{
+    width: 240px;
+}
+.hobbies ul{
+    list-style: none;
+    text-align: center;
+}
+.skills{
+    grid-column: 3 / span 1;
+    text-align: center;
+}
+.skills img{
+    width: 240px;
+}
+.skills ul{
+    list-style: none;
+    text-align: center;
+}
+.interests{
+    grid-column: 4 / span 1;
+    text-align: center;
+}
+.interests img{
+    width: 240px;
+}
+.interests ul{
+    list-style: none;
+    text-align: center;
+}
+.portfolio_container{
+    margin-top: 3%;
+}
+.assignment{
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 0.5%;
+    margin-bottom: 3%;
+}
+.assign_container{
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 100% 100%;
+}
+.assign_container a{
+    outline: none;
+}
+.assign_container img:hover{
+    cursor: pointer;
+    width: 70%;
+    transition: 0.4s;
+}
+.assign3{
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    text-align: center;
+    padding: 5% 0;
+}
+.assign3 img{
+    width: 84.5%;
+}
+.assign5{
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+    text-align: center;
+    padding: 5% 0;
+}
+.assign5 img{
+    width: 80%;
+}
+.assign6{
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    text-align: center;
+    padding: 5% 0;
+}
+.assign6 img{
+    width: 80%;
+}
+.assign7{
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+    text-align: center;
+    padding: 5% 0;
+}
+.assign7 img{
+    width: 80%;
+}
+.fb-box img{
+    width: 120px;
+}
+.ig-box img{
+    width: 120px;
+}
+.twitch-box img{
+    width: 120px;
+}
+.contact_container{
+    display: grid;
+    grid-template-columns: 30% auto 30%;
+    color: black;
+    justify-items: center;
+    justify-content: center;
+}
+.con_head{
+    grid-column: 2 / span 1;
+    width: 370px;
+    height: 100px;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding-top: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 40px;
+}
+.contact ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 900px;
+    grid-column: 2 / span 1;
+}
+.copyright{
+    font-family: 'Ubuntu', sans-serif;
+    grid-column: 2 / span 1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1440px){
+    
+    .content_container{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 610px;
+    }
+    .pf_intro{
+        width: 480px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 20px;
+    }
+    .pf_pic{
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .top_header{
+        width: 800px;
+    }
+    .logo_header h1{
+        padding-left: 50px;
+    }
+    .container{
+        width: 800px;
+    }
+    .content_container{
+        width: 800px;
+        margin-left: 0;
+        padding-left: 330px;
+    }
+    .pf_container{
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        margin-top: 50px;
+        justify-items: center;
+    }
+    .pf_pic{
+        grid-column: 2 / span 1;
+        margin: 10% 10%;
+    }
+    .pf_intro{
+        justify-items: center;
+    }
+    .contact{
+        width: 500px;
+    }
+    .fb-box img{
+        width: 90px;
+    }
+    .ig-box img{
+        width: 90px;
+    }
+    .twitch-box img{
+        width: 90px;
+    }
+    .per_container{
+        display: grid;
+        grid-template-columns: 5% 30% 30% 30% 5%;
+        background-color: rgb(77, 77, 77);
+        color: white;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 20px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .assignment{
+        width: 100%;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 0.5%;
+        margin-bottom: 3%;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .container{
+        margin: 0 auto;
+        width: 576px;
+    }
+    .top_header{
+        width: 576px;
+    }
+    .header_box{
+        height: 350px;
+    }
+    .logo_header h1{
+        padding-left: 30px;
+        font-size: 50px;
+    }
+    .menu_header ul{
+        width: 400px;
+        justify-content: space-evenly;
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    .content_container{
+        width: 576px;
+        margin-left: -30px;
+        padding-left: 0px;
+    }
+    .top_content{
+        width: 576px;
+        height: 250px;
+        text-align: right;
+        padding-top: 200px;
+    }
+    .top_content h2{
+        font-size: 30px;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+    }
+    .top_content h4{
+        color: white;
+        padding-top: 20px;
+        font-size: 10px;
+        font-family: 'Roboto Slab', serif;
+    }
+    .pf_container{
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        margin-top: 50px;
+        justify-items: center;
+    }
+    .pf_pic{
+        width: 300px;
+        grid-column: 2 / span 1;
+        margin: 10% 10%;
+    }
+    .pf_intro{
+        justify-items: center;
+    }
+    .contact{
+        width: 500px;
+    }
+    .fb-box img{
+        width: 90px;
+    }
+    .ig-box img{
+        width: 90px;
+    }
+    .twitch-box img{
+        width: 90px;
+    }
+    .per_container{
+        display: grid;
+        grid-template-columns: 5% 30% 30% 30% 5%;
+        background-color: rgb(77, 77, 77);
+        justify-items: center;
+        color: white;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .hobbies{
+        grid-column: 2 / span 1;
+        text-align: center;
+    }
+    .hobbies img{
+        width: 150px;
+    }
+    .hobbies ul{
+        list-style: none;
+        text-align: center;
+    }
+    .skills{
+        grid-column: 3 / span 1;
+        text-align: center;
+    }
+    .skills img{
+        width: 150px;
+    }
+    .skills ul{
+        list-style: none;
+        text-align: center;
+    }
+    .interests{
+        grid-column: 4 / span 1;
+        text-align: center;
+    }
+    .interests img{
+        width: 150px;
+    }
+    .contact{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 300px;
+    }
+    .fb-box img{
+        width: 40px;
+    }
+    .ig-box img{
+        width: 40px;
+    }
+    .twitch-box img{
+        width: 40px;
+    }
+    .person{
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        background-color: rgb(38, 38, 38);
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .con_head{
+        grid-column: 2 / span 1;
+        width: 170px;
+        height: 50px;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        padding-top: 5px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border-radius: 40px;
+    }
+    .copyright{
+        font-size: 10px;
+    }
+    .assignment{
+        width: 100%;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 0.5%;
+        margin-bottom: 3%;
+    }
+    
+}
+
+/* Project */
+.header_box2{
+    width: 100%;
+    height: 480px;
+    background-color: rgb(68, 68, 68);
+    background-image: url(pics/starry-night-sky.jpeg);
+    background-position: center;
+    /* background-size: 100%; */
+}
+.project{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    justify-items: center;
+}
+.proj_topic{
+    width: 40%;
+    height: 120%;
+    color: rgb(34, 34, 34);
+    background-color: rgb(170, 170, 170);
+    grid-column: 2 / span 1;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.project_container{
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 50% 50% 50%;
+}
+.project_container a{
+    outline: none;
+}
+.project_container h1{
+    font-size: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.project_container p{
+    padding: 10% 0;
+    padding-right: 10%;
+    color: rgb(58, 58, 58);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+}
+.proj1_pic{
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    margin: 5% 5%;
+}
+.proj1_pic img{
+    width: 100%;
+}
+.proj1_pic img:hover{
+    cursor: pointer;
+    width: 102%;
+    transition: 0.2s;
+}
+.project1{
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+    margin: 5% 5%;
+}
+.proj2_pic{
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+    margin: 5% 5%;
+}
+.proj2_pic img{
+    width: 100%;
+}
+.proj2_pic img:hover{
+    cursor: pointer;
+    width: 102%;
+    transition: 0.2s;
+}
+.project2{
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    margin: 5% 5%;
+}
+.proj3_pic{
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+    margin: 5% 5%;
+}
+.proj3_pic img{
+    width: 100%;
+}
+.proj3_pic img:hover{
+    cursor: pointer;
+    width: 102%;
+    transition: 0.2s;
+}
+.project3{
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+    margin: 5% 5%;
+}
+
+.copy_proj{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    margin: 5%;
+}
+.cp{
+    grid-column: 2 / span 1;
+    text-align: center;
+}
+@media only screen and (max-width: 800px){
+    .header_box2{
+        width: 100%;
+        height: 450px;
+        background-color: rgb(68, 68, 68);
+        background-image: url(pics/starry-night-sky.jpeg);
+        background-position: center;
+        background-size: 100%;
+    }
+    .proj_topic{
+        width: 40%;
+        height: 120%;
+        color: rgb(34, 34, 34);
+        background-color: rgb(170, 170, 170);
+        grid-column: 2 / span 1;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: bold;
+        border-radius: 30px;
+    }
+    .project_container h1{
+        font-size: 30px;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    .project_container p{
+        padding: 5% 0;
+        padding-right: 10%;
+        color: rgb(58, 58, 58);
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .header_box2{
+        width: 100%;
+        height: 328px;
+        background-color: rgb(68, 68, 68);
+        background-image: url(pics/starry-night-sky.jpeg);
+        background-position: center;
+        background-size: 100%;
+    }
+    .top_content{
+        padding-top: 170px;
+    }
+    .project{
+        margin-bottom: 6%;
+    }
+    .proj_topic{
+        width: 40%;
+        height: 120%;
+        color: rgb(34, 34, 34);
+        background-color: rgb(170, 170, 170);
+        grid-column: 2 / span 1;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: bold;
+        border-radius: 30px;
+    }
+    .project_container{
+        display: grid;
+        grid-template-columns: 10% auto 10%;
+        grid-template-rows: 50% 50% 50% 50% 50% 50%;
+        justify-items: center;
+    }
+    .project_container h1{
+        color: rgb(0, 0, 0);
+    }
+    .project_container p{
+        color: rgb(58, 58, 58);
+        padding-top: 2%;
+        padding-bottom: 10%;
+        padding-right: 0;
+    }
+    .proj1_pic{
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 1;
+        margin: 0 5%;
+    }
+    .proj1_pic img{
+        width: 100%;
+    }
+    .project1{
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
+        margin: 5% 5%;
+    }
+    .proj2_pic{
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
+        margin: 0 5%;
+    }
+    .proj2_pic img{
+        width: 100%;
+    }
+    .project2{
+        grid-column: 2 / span 1;
+        grid-row: 4 / span 1;
+        margin: 5% 5%;
+    }
+    .proj3_pic{
+        grid-column: 2 / span 1;
+        grid-row: 5 / span 1;
+        margin: 0 5%;
+    }
+    .proj3_pic img{
+        width: 100%;
+    }
+    .project3{
+        grid-column: 2 / span 1;
+        grid-row: 6 / span 1;
+        margin: 5% 5%;
+    }
+    .cp{
+        font-size: 10px;
+    }
+}

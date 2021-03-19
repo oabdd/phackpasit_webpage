@@ -1,0 +1,106 @@
+body{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-gap: 10px;
+    background-color: teal;
+}
+#myForm{
+    grid-column: 2 / span 1;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 100px;
+    font-size: 30px;
+}
+#myLogin{
+    grid-column: 2 / span 1;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 100px;
+    font-size: 30px;
+}
+fieldset{
+    border-radius: 30px;
+    background-color: rgb(255, 212, 72);
+    color: rgb(1, 73, 73);
+}
+legend{
+    width: 400px;
+    height: 120px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(1, 73, 73);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+#re-box{
+    margin-top: -50px;
+    margin-bottom: -20px;
+}
+#required{
+    color: tomato;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+#firstname{
+    width: 30%;
+}
+#lastname{
+    width: 30%;
+}
+#username{
+    width: 30%;
+    height: 20px;
+}
+#password{
+    width: 30%;
+    height: 20px;
+}
+#button_container{
+    display: flex;
+    justify-content: space-between;
+}
+#clickSubmit{
+    font-family: sans-serif;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 70px;
+    color: rgb(255, 212, 72);
+    background-color: rgb(1, 73, 73);
+}
+#resetButton{
+    font-family: sans-serif;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 70px;
+    color: rgb(255, 212, 72);
+    background-color: rgb(1, 73, 73);
+}
+#butt-loginPage{
+    display: flex;
+    justify-content: space-between;
+}
+#loginButton{
+    font-family: sans-serif;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 70px;
+    color: rgb(255, 212, 72);
+    background-color: rgb(1, 73, 73);
+}
+#clearButton{
+    font-family: sans-serif;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 70px;
+    color: rgb(255, 212, 72);
+    background-color: rgb(1, 73, 73);
+}

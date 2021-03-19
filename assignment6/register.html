@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<script src='register.js'></script>
+	<link rel="stylesheet" href="style6.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<form name="myForm" id="myForm" action="login.html">
+		<fieldset>
+			<legend>Register</legend>
+			<div id="re-box">
+				<span id="required">* is require</span>
+			</div>
+			<span id="errormsg"></span> <br>
+			First name*: 
+			<input type="text" id="firstname" name="firstname" required>
+			Last name*: 
+			<input type="text" id="lastname" name="lastname" >
+			<br>
+			Gender*: 
+			<input type="radio" name="gender" value="male" >Male
+			<input type="radio" name="gender" value="female" >Female
+			<input type="radio" name="gender" value="other" >Other
+			<br>
+			Birthday*: 
+			<input type="date" name="bday" value="" >
+			<br>
+			Email address*: 
+			<input type="email" name="email" >
+			<br>
+			Username*: 
+			<input type="text" name="username" required>
+			<br>
+			Password*: 
+			<input type="password" id="password" name="password" required>
+			<br>
+			Retype Password*: 
+			<input type="password" id="rePassword" name="password" required>
+			<br>
+			<div id="button_container">
+				<input type="submit" id="clickSubmit" value="Register">
+				<input type="reset" id="resetButton"value="Reset">
+			</div>
+			
+		</fieldset>
+	</form>
+</body>
+</html>

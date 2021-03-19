@@ -1,0 +1,270 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-gap: 10px;
+}
+
+.recipe-top{
+    width: 100%;
+    font-size: 48px;
+    color: orange;
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.pictop{
+    width: 800px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid rgb(252, 181, 0);
+}
+.iingre{
+    width: 30%;
+    font-size: 35px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    background-color: orange;
+    color: whitesmoke;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.ingre-container{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: monospace;
+    color: orange;
+}
+.ingre-list{
+    width: 70%;
+    font-size: 18px;
+    text-align: left;
+    border: 2px dotted orange;
+    padding: 40px;
+    border-radius: 30px;
+}
+.ingreimg{
+    width: 100%;
+}
+.list-img{
+    width: 100%;
+    border: 2px solid rgb(255, 203, 106);
+    padding: 5px;
+}
+.howto-container{
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 18px;
+    color: orange;
+}
+.howto-container .step h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.howto-container .step{
+    width: 70%;
+    text-align: left;
+    border-radius: 15px;
+    border: 3px solid rgb(255, 181, 45);
+    margin: 10px auto;
+    padding: 20px;
+    font-family: monospace;
+}
+
+.servewith{
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    border: 3px dashed rgb(255, 216, 62);
+    color: rgb(255, 174, 0);
+    margin: 10px auto;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+    padding: 10px;
+}
+.servewith ol{
+    list-style: none;
+    text-align: center;
+    font-family: monospace;
+    padding: 10px;
+    font-size: 20px;
+}
+.weblink{
+    width: 100%;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(255, 174, 0);
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.recipe-top{
+    grid-column: 2 / span 1;
+}
+.iingre{
+    grid-column: 2 / span 1;
+}
+.ingre-container{
+    grid-column: 1 / span 1;
+}
+.ingreimg{
+    grid-column: 3 /span 1;
+}
+.howto-container{
+    grid-column: 2 / span 1;
+    
+}.servewith{
+    grid-column: 1 / span 3;
+}
+.weblink{
+    grid-column: 1 / span 3;
+}
+
+@media only screen and (max-width: 768px){
+    .grid-container{
+        grid-template-rows: 420px 350px 750px 400px 360px 50px;
+    }
+    .pictop{
+        width: 400px;
+        text-align: center;
+        margin-top: 20px;
+        border: 2px solid rgb(252, 181, 0);
+    }
+    .iingre{
+        width: 50%;
+        font-size: 20px;
+        color: white;
+        background-color: orange;
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+        margin-left: 150px;
+    }
+    .ingre-container{
+        width: 70%;
+        display: block;
+        grid-gap: 0px;
+    }
+    .ingre-list{
+        font-size: 15px;
+    }
+    .ingre-container{
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
+        margin-left: 150px;
+    }
+    .howto-container{
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
+    }
+    .step{
+        height: 650px;
+        font-size: 12px;
+        padding: 0px;
+        margin: 0px;
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
+    }
+    .ingreimg{
+        width: 60%;
+        grid-column: 2 / span 1;
+        grid-row: 4 / span 1;
+        margin-left: 100px;
+    }
+    .servewith{
+        grid-column: 2 / span 1;
+        grid-row: 5 / span 1;
+        width: 90%;
+        font-size: 15px;
+    }
+    .servewith li{
+        font-size: 14px;
+    }
+    .weblink{
+        grid-column: 1 / span 3;
+        grid-row: 6 / span 1;
+        background-color: rgb(255, 196, 0);
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .grid-container{
+        grid-template-rows: 420px 50px 350px 900px 400px 360px 50px;
+    }
+    .recipe-top{
+        font-size: 30px;
+        margin-left: -60px;
+    }
+    .pictop{
+        width: 380px;
+        text-align: center;
+        margin-top: 20px;
+        border: 2px solid rgb(252, 181, 0);
+    }
+    .iingre{
+        width: 50%;
+        font-size: 20px;
+        color: white;
+        background-color: orange;
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
+        margin-left: 30px
+    }
+    .ingre-container{
+        width: 70%;
+        display: block;
+        grid-gap: 0px;
+    }
+    .ingre-list{
+        font-size: 15px;
+    }
+    .ingre-container{
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 1;
+        margin-left: -5px;
+    }
+    .howto-container{
+        grid-column: 2 / span 1;
+        grid-row: 4 / span 1;
+        margin-left: -50px;
+    }
+    .step{
+        height: 800px;
+        font-size: 12px;
+        padding: 0px;
+        margin: 0px;
+        grid-column: 2 / span 1;
+        grid-row: 4 / span 1;
+        
+    }
+    .ingreimg{
+        width: 60%;
+        grid-column: 2 / span 1;
+        grid-row: 5 / span 1;
+        margin-left: 20px;
+    }
+    .servewith{
+        grid-column: 2 / span 1;
+        grid-row: 6 / span 1;
+        width: 90%;
+        font-size: 15px;
+        margin-left: -30px;
+    }
+    .servewith li{
+        font-size: 14px;
+    }
+    .weblink{
+        grid-column: 1 / span 2;
+        grid-row: 7 / span 1;
+        background-color: rgb(255, 196, 0);
+        font-size: 25px;
+    }
+}
