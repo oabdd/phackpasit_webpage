@@ -229,32 +229,32 @@ html{
     width: 80%;
 }
 .fb-box img{
-    width: 120px;
+    width: 60px;
 }
 .ig-box img{
-    width: 120px;
+    width: 60px;
 }
 .twitch-box img{
-    width: 120px;
+    width: 60px;
 }
 .contact_container{
     display: grid;
-    grid-template-columns: 30% auto 30%;
+    grid-template-columns: 40% auto 40%;
     color: black;
     justify-items: center;
     justify-content: center;
 }
 .con_head{
     grid-column: 2 / span 1;
-    width: 370px;
-    height: 100px;
+    width: 300px;
+    height: 70px;
     text-align: center;
-    font-size: 70px;
+    font-size: 40px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     color: white;
     background-color: black;
-    padding-top: 5px;
+    padding-top: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 40px;
@@ -262,7 +262,7 @@ html{
 .contact ul{
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .contact{
     padding-top: 30px;
@@ -291,6 +291,116 @@ html{
     }
     .pf_pic{
         margin-left: 20px;
+    }
+    .con_head{
+        grid-column: 2 / span 1;
+        width: 250px;
+        height: 60px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        padding-top: 7px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 40px;
+    }
+    .fb-box img{
+        width: 50px;
+    }
+    .ig-box img{
+        width: 50px;
+    }
+    .twitch-box img{
+        width: 50px;
+    }
+}
+@media only screen and (max-width: 1180px){
+    .top_header{
+        width: 800px;
+    }
+    .logo_header h1{
+        padding-left: 50px;
+    }
+    .container{
+        width: 800px;
+    }
+    .content_container{
+        width: 800px;
+        margin-left: 0;
+        padding-left: 330px;
+    }
+    .pf_container{
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        margin-top: 50px;
+        justify-items: center;
+    }
+    .pf_pic{
+        grid-column: 2 / span 1;
+        margin: 10% 10%;
+    }
+    .pf_intro{
+        justify-items: center;
+        font-size: 25px;
+        width: 540px;
+    }
+    .contact{
+        width: 500px;
+    }
+    .fb-box img{
+        width: 90px;
+    }
+    .ig-box img{
+        width: 90px;
+    }
+    .twitch-box img{
+        width: 90px;
+    }
+    .per_container{
+        display: grid;
+        grid-template-columns: 5% 30% 30% 30% 5%;
+        background-color: rgb(77, 77, 77);
+        color: white;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 20px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .assignment{
+        width: 100%;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 0.5%;
+        margin-bottom: 3%;
+    }
+    .con_head{
+        grid-column: 2 / span 1;
+        width: 180px;
+        height: 60px;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        padding-top: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 40px;
+    }
+    .fb-box img{
+        width: 40px;
+    }
+    .ig-box img{
+        width: 40px;
+    }
+    .twitch-box img{
+        width: 40px;
     }
 }
 
@@ -352,6 +462,30 @@ html{
         font-weight: bold;
         margin-top: 0.5%;
         margin-bottom: 3%;
+    }
+    .con_head{
+        grid-column: 2 / span 1;
+        width: 180px;
+        height: 60px;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        padding-top: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 40px;
+    }
+    .fb-box img{
+        width: 40px;
+    }
+    .ig-box img{
+        width: 40px;
+    }
+    .twitch-box img{
+        width: 40px;
     }
 }
 
@@ -517,6 +651,31 @@ html{
         font-weight: bold;
         margin-top: 0.5%;
         margin-bottom: 3%;
+    }
+
+    .con_head{
+        grid-column: 2 / span 1;
+        width: 140px;
+        height: 40px;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        padding-top: 7px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 40px;
+    }
+    .fb-box img{
+        width: 28px;
+    }
+    .ig-box img{
+        width: 28px;
+    }
+    .twitch-box img{
+        width: 28px;
     }
     
 }
