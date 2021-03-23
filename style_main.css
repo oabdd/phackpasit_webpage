@@ -14,8 +14,9 @@ html{
     width: 100%;
     height: 480px;
     background-color: rgb(68, 68, 68);
-    background-image: url(pics/sky.jpg);
+    background-image: url(pics/sky.jpg); /* BG pic source : https://hipwallpaper.com/night-sky-backgrounds-hd/ */
     background-position: center;
+    background-repeat: no-repeat;
     background-size: 100%;
 }
 
@@ -685,9 +686,9 @@ html{
     width: 100%;
     height: 480px;
     background-color: rgb(68, 68, 68);
-    background-image: url(pics/starry-night-sky.jpeg);
+    background-image: url(pics/sky_night.jpg); /* BG pic source : https://hipwallpaper.com/night-sky-backgrounds-hd/ */
     background-position: center;
-    /* background-size: 100%; */
+    background-size: 100%;
 }
 .project{
     display: grid;
